@@ -1,0 +1,61 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+th {
+    background-color: #a15050;
+    border: 3px solid #000000;
+    color: rgb(235, 235, 235);
+    height: 50px;
+
+
+}
+
+td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+tbody {
+    text-align: center;
+}
+
+#table-header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#table-body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: larger;
+}
+
+#second-table{
+    border: 2px solid #000000;
+    margin-top: 20px;
+}
+
+.first {
+    font-size: small;
+    vertical-align: top;
+    text-align: left;
+    font-style: bold;
+}
+
+.second {
+    font-size: x-large;
+    vertical-align: bottom;
+    text-align: right;
+    font-style: italic;
+}
+
+tr:hover {
+    background-color: #e40e0e;
+}
+
+td:hover {
+    background-color: #a15050;
+}
+
