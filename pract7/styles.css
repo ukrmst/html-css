@@ -1,0 +1,85 @@
+h1 {
+    background-color: rgb(149, 81, 9);
+    font-size: 2em;
+    font-family: monospace;
+}
+
+#first {
+    font-size: 1.5em;
+    font-family: serif;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 1.3em;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: unset;
+    opacity: 0.6;
+    background-color: rgba(135, 206, 235, 0.5);
+    text-decoration: underline;
+}
+
+#second {
+    font-size: 0.8em;
+    font-family: sans-serif;
+    background-color: rgb(28, 117, 68, 0.2);
+}
+
+h3 {
+    font-size: 1.2em;
+    font-family: fantasy;
+    font-weight: normal;
+    font-style: oblique;
+    text-decoration: line-through;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#third {
+    font-size: 1.1em;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+#secondh1 {
+    font-size: 1.5em;
+    font-family: serif;
+    font-style: italic;
+    background-color: rgba(135, 206, 235, 0.5);
+}
+
+figure  {
+    font-size: 1.2em;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: unset;
+    background-color: rgba(135, 206, 235, 0.5);
+    text-align: center;
+}
+figcaption {
+    font-size: 1em;
+    font-family: sans-serif;
+    background-color: rgba(135, 206, 235, 0.5);
+    margin: auto;
+    text-align: center;
+}
+
+#links {
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: overline;
+    background-color: seashell;
+}
+
+#txt {
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    text-decoration: underline;
+    background-color: rgb(255, 0, 0);
+}
