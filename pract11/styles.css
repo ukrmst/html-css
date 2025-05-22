@@ -1,0 +1,59 @@
+p {
+    border: 5px solid rgb(102, 181, 220);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 50px;
+    width: 300px;
+}
+
+#first, #second, #third {
+    border: 5px solid rgb(255, 0, 0);
+    background-color: rgb(183, 108, 108);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    width: 500px;
+}
+
+#first, #third {
+    background-color: rgb(75, 28, 106);
+    border: 6px ridge rgb(145, 55, 0);
+    width: 900px;
+}
+
+
+#second {
+    background-color: rgb(70, 79, 70);
+}
+
+div {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 50px;
+    width: 405px;
+}
+
+div.footer {
+    border: 5px solid rgb(251, 134, 134);
+    background-color: rgb(95, 59, 163);
+    padding: 10px;
+    margin: 50px;
+    width: 405px;
+}
+
+#deepest {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(220, 235, 245); 
+    padding: 10px;
+    margin: 50px;
+    width: 200px;
+}
+
+#dpst {
+    border: 5px solid rgb(70, 48, 165);
+    background-color: rgb(220, 235, 245); 
+    padding: 10px;
+    margin: 50px;
+    width: 100px;
+    margin: 50px auto;
+}
