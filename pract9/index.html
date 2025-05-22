@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="left.js"></script>
+    <script src="right.js"></script>
+    <script src="apply.js"></script>
+
+    <form name="First" id = "First">
+        choose left or right: <br>
+        <input type="button" value="Left" onclick="left()">
+        <input type="button" value="Right" onclick="right()">
+        <br>
+        <br>
+        <input type="text" name="name" maxlength="12" placeholder="Enter your name">
+    </form>
+
+    <br>
+
+    <form name = "Second" id = "Second">
+        Enter your password: <br>   
+        <input type="password" name="password" maxlength="12" placeholder="Enter your password">
+    </form>
+    
+    <br>
+
+    <form name="Third" id = "Third">
+        Choose your favorite foods: <br>
+        <input type="checkbox" id="pizza" name="food" value="Pizza" checked>
+        <label for="pizza">Pizza</label><br>
+        <input type="checkbox" id="burger" name="food" value="Burger">
+        <label for="burger">Burger</label><br>
+        <input type="checkbox" id="sushi" name="food" value="Sushi">
+        <label for="sushi">Sushi</label><br>
+        <input type="checkbox" id="pasta" name="food" value="Pasta">
+        <label for="pasta">Pasta</label><br>
+        <input type="button" value="Apply" onclick="apply()">
+        <input type="button" value="Reset" onclick="document.getElementById('Third').reset();">
+
+    </form>
+
+    <br><br>
+
+    <form name="Fourth" id = "Fourth">
+        Choose your favorite color: <br>
+        <input type="radio" id="red" name="color" value="Red">
+        <label for="red">Red</label><br>
+        <input type="radio" id="green" name="color" value="Green">
+        <label for="green">Green</label><br>
+        <input type="radio" id="blue" name="color" value="Blue">
+        <label for="blue">Blue</label><br>
+        <input type="radio" id="yellow" name="color" value="Yellow">
+        <label for="yellow">Yellow</label><br>
+        <input type="button" value="Apply" onclick="apply()">
+        <input type="button" value="Reset" onclick="document.getElementById('Fourth').reset();">
+
+    </form>
+
+    <br><br>
+    <form name="Fifth" id = "Fifth">
+        Enter your age: <br>
+        <input type="number" name="age" min="1" max="120" placeholder="Enter your age">
+        <br><br>
+        Choose your gender: <br>
+        <select name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br><br>
+        Load ypur profile picture: <br>
+        <input type="file" name="profilePicture" accept="image/*">
+        <br>
+        Enter something about yourself: <br>
+        <textarea name="aboutMe" rows="4" cols="50" placeholder="Write about yourself..."></textarea>
+
+        <br>
+        Choose your country: <br>
+        <select name="country">
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="australia">Australia</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset"> 
+
+    </form>
+
+    </script>
+</body>
+</html>

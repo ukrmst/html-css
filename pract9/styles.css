@@ -1,0 +1,35 @@
+#first {
+    background-color: lightblue;
+    
+}
+
+button {
+    background-color: lightgreen;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="button"] {
+    background-color: lightcoral;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 200px;
+}
+input[type="text"] {
+    background-color: lightyellow;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 200px;
+}
+
+input[type = "password"] {
+    background-color: rgb(124, 60, 70);
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 200px;
+}
+
+#fifth {
+    background-color: lightpink;
+}
