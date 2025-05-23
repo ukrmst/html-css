@@ -1,0 +1,70 @@
+body {
+
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-areas: 
+      "header header"
+      "nav main"
+      "aside main"
+      "footer footer";
+    grid-template-columns: 200px 1fr;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, aside, main, footer {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+header {
+    grid-area: header;
+    background: #f0f0f0;
+}
+
+nav {
+    grid-area: nav;
+    background: #e0f7fa;
+}
+
+aside {
+    grid-area: aside;
+    background: #fce4ec;
+}
+
+main {
+    grid-area: main;
+    background: #ffffff;
+}
+
+footer {
+    grid-area: footer;
+    background: #c8e6c9;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:oblique;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: medium;
+}
