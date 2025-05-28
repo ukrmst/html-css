@@ -1,0 +1,73 @@
+body {
+margin: 0;
+font-family: 'Segoe UI', sans-serif;
+background: #0a0a0a;
+color: #fff;
+}
+
+.gallery-header {
+text-align: center;
+padding: 40px 20px;
+background: #000;
+}
+
+.gallery-header h1 {
+margin: 0;
+font-size: 2.5rem;
+}
+
+.back-link {
+display: inline-block;
+margin-top: 10px;
+color: #007aff;
+text-decoration: none;
+}
+
+.gallery-section {
+padding: 40px 5%;
+}
+
+.gallery-section h2 {
+font-size: 2rem;
+margin: 40px 0 20px;
+border-left: 4px solid #007aff;
+padding-left: 10px;
+}
+
+.gallery-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 20px;
+}
+
+.gallery-grid img {
+width: 100%;
+border-radius: 10px;
+cursor: pointer;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+object-fit: cover;
+height: 200px;
+}
+
+.gallery-grid img:hover {
+transform: scale(1.03);
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+/* Lightbox */
+.lightbox {
+display: none;
+position: fixed;
+inset: 0;
+background: rgba(0, 0, 0, 0.95);
+justify-content: center;
+align-items: center;
+z-index: 999;
+}
+
+.lightbox img {
+max-width: 90%;
+max-height: 90vh;
+border-radius: 12px;
+box-shadow: 0 0 60px rgba(255, 255, 255, 0.1);
+}

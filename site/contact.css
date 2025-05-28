@@ -1,0 +1,120 @@
+body, html {
+margin: 0;
+padding: 0;
+height: 100%;
+font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-page {
+background: url(images/contact-bg.jpg) center/cover no-repeat;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.85)),
+            url(images/contact-bg.jpg) center/cover no-repeat;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 60px 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    width: 90%;
+    color: #fff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
+    text-align: center;
+  }
+  
+
+header h1 {
+margin-bottom: 10px;
+font-size: 2.5rem;
+}
+
+.back-link {
+display: inline-block;
+margin-bottom: 40px;
+color: #007aff;
+text-decoration: none;
+font-size: 1rem;
+}
+
+.contact-form {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+padding: 15px;
+border: none;
+border-radius: 8px;
+font-size: 1rem;
+background: rgba(255, 255, 255, 0.1);
+color: #fff;
+outline: none;
+transition: background 0.3s ease;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+background: rgba(255, 255, 255, 0.2);
+}
+
+.contact-form textarea {
+min-height: 120px;
+resize: vertical;
+}
+
+.contact-form button {
+padding: 15px;
+font-size: 1rem;
+font-weight: bold;
+background: #007aff;
+color: #fff;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+background: #005ecc;
+}
+
+.contact-info {
+text-align: left;
+margin-bottom: 40px;
+font-size: 1rem;
+color: #ddd;
+}
+
+.contact-info p {
+margin: 10px 0;
+display: flex;
+align-items: center;
+gap: 12px;
+}
+
+.contact-info i {
+color: #007aff;
+font-size: 1.2rem;
+min-width: 20px;
+}
+
+.contact-info p:hover i {
+transform: scale(1.4);
+transition: 0.3s ease;
+}
+
+
+  
